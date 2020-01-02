@@ -29,7 +29,7 @@ const Header = () => {
       className="bg-secondary font-display flex"
       style={{ minHeight: `70px` }}
     >
-      <div className="w-2/3 mx-auto p-4 flex flex-wrap items-center justify-between">
+      <div className="w-4/5 md:w-2/3 mx-auto py-4 flex flex-wrap items-center justify-between">
         <Link to="/">
           <Logo />
         </Link>
