@@ -1,3 +1,8 @@
+/*
+Use this file to bring in tailwind directives
+https://tailwindcss.com/docs/functions-and-directives/#app
+*/
+
 @tailwind base;
 
 @tailwind components;
