@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header className="bg-secondary font-display flex" style={{ height: `70px` }}>
-    <div className="w-4/5 mx-auto">
+    <div className="w-2/3 mx-auto">
       <h1 className="text-white">
         <Link to="/">{siteTitle}</Link>
       </h1>
