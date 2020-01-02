@@ -1,7 +1,7 @@
 ---
 path: /blog/example-blog-post
 date: 2020-01-02T09:00:00.000Z
-image: ../assets/example_post.png
+image: ../assets/gatsby-astronaut.png
 title: Example blog post
 draft: false
 ---
