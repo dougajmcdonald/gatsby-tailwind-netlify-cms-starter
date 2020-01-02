@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby tailwind netlify blog starter`,
+    title: `Gatsby tailwind netlify cms starter`,
     author: `@dougajmcdonald`,
-    description: `Gatsby tailwind netlify blog starter`,
-    url: `https://www.dougmcdonald.co.uk`, // No trailing slash allowed!
+    description: `Gatsby tailwind netlify cms starter`,
+    url: `https://github.com/dougajmcdonald/gatsby-tailwind-netlify-cms-starter`, // No trailing slash allowed!
     image: `/favicon.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
   },
@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-tailwind-netlify-cms-starter`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
