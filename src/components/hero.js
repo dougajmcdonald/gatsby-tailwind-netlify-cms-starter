@@ -1,9 +1,14 @@
 import React from "react"
 
-const Hero = ({ text, image }) => (
+import Button from "../components/button"
+
+const Hero = ({ text, image, cta }) => (
   <section className="bg-primary font-body" style={{ height: `400px` }}>
     <div className="w-2/3 mx-auto flex justify-between pt-16">
-      <h2 className="w-1/2 text-white font-bold text-2xl mr-12">{text}</h2>
+      <div>
+        <h2 className="w-1/2 text-white font-bold text-2xl mr-20">{text}</h2>
+        {cta && <Button to={cta.to}>{cta.text}</Button>}
+      </div>
       <div className="w-1/2" style={{ height: `300px` }}>
         {image}
       </div>
