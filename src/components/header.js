@@ -49,7 +49,7 @@ const Header = () => {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:hidden md:flex md:items-center w-full md:w-auto`}
+          } md:hidden md:flex md:items-center mt-4 w-full md:w-auto border-t-2 border-white`}
         >
           {pages.map(page => (
             <Link
