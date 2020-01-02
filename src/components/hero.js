@@ -11,7 +11,7 @@ const Hero = ({ text, image, cta }) => (
         </h2>
         {cta && <Button to={cta.to}>{cta.text}</Button>}
       </div>
-      <div className="w-1/2" style={{ height: `300px` }}>
+      <div className="w-1/2" style={{ height: `300px`, width: `300px` }}>
         {image}
       </div>
     </div>
