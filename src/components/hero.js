@@ -3,7 +3,7 @@ import React from "react"
 import Button from "../components/button"
 
 const Hero = ({ text, image, cta }) => (
-  <section className="bg-primary" style={{ height: `400px` }}>
+  <section className="bg-primary" style={{ minHeight: `400px` }}>
     <div className="w-2/3 mx-auto flex justify-between pt-16">
       <div>
         <h2 className="w-1/2 text-white font-bold text-2xl mr-20 font-body mt-0">

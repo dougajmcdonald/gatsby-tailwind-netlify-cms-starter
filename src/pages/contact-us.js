@@ -6,6 +6,7 @@ import Body from "../components/body"
 
 import SEO from "../components/seo"
 import HeroImg from "../svg/undraw_contactus.svg"
+import Map from "../images/google-maps.png"
 
 const IndexPage = () => (
   <Layout>
@@ -16,19 +17,25 @@ const IndexPage = () => (
     />
     <Body>
       <h1>Contact Us</h1>
-      <p>All our Committee are volunteers and phones are not monitored 24/7.</p>
+      <p>
+        We would love to hear from you, whether it's making a booking or
+        providing some valuable feedback we can use to improve.
+      </p>
       <p>
         We will endeavour to get back to you within 48 hours though emails
         usually get answered sooner.
       </p>
       <h3>General enquiries</h3>
-      <a href="mailto:grayivor@hotmail.com">grayivor@hotmail.com</a>
-      <p className="mt-4">Holt Village Hall - Wiltshire,</p>
-      <p>The Street,</p>
-      <p>Holt,</p>
-      <p>Wiltshire,</p>
-      <p>BA14 6QH</p>
+      <a className="mt-4 inline-block" href="mailto:email@host.com">
+        email@host.com
+      </a>
+      <p className="mt-4 mb-0">An address,</p>
+      <p className="mt-0 mb-0">The Street,</p>
+      <p className="mt-0 mb-0">Town,</p>
+      <p className="mt-0 mb-0">County,</p>
+      <p className="mt-0 mb-0">POST COD</p>
       <h2>Where to find us</h2>
+      <img src={Map} />
     </Body>
   </Layout>
 )
