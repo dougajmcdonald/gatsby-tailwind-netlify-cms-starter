@@ -1,0 +1,23 @@
+a {
+  @apply text-tertiary font-body;
+}
+
+a:hover {
+  @apply underline;
+}
+
+p {
+  @apply font-body text-secondary text-base;
+}
+
+h1 {
+  @apply font-display text-2xl mt-16 mb-8;
+}
+
+h2 {
+  @apply font-display text-xl mt-16 mb-8;
+}
+
+h3 {
+  @apply text-l text-secondary font-body font-bold mt-8 mb-4;
+}
