@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/hero"
@@ -13,7 +12,7 @@ const IndexPage = () => (
     <Hero
       text="Welcome to the Gatsby Tailwind Netlify CMS Starter"
       image={<HeroImg />}
-      cta={{ to: "/facilities", text: "Go places!" }}
+      cta={{ to: "/contact-us", text: "How to find us" }}
     />
     <Body>
       <h1 className="font-display text-2xl mt-16 mb-8">Page Title</h1>
