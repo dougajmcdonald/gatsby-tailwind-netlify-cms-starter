@@ -12,7 +12,7 @@ const PostLink = ({ post: { excerpt, frontmatter } }) => (
       alt="article lead"
       className="inline-block md:mr-3xl"
     />
-    <div className="flex flex-col inline-block md:w-2/3 mt-10 md:mt-auto">
+    <div className="flex flex-col inline-block md:w-2/3 mt-10 md:ml-10 md:mt-auto">
       <h4>{frontmatter.date}</h4>
       <h3 className="mt-2">{frontmatter.title}</h3>
       <span className="inline-block w-5xl h-xxxs bg-primary mb-lg"></span>

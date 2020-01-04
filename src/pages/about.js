@@ -9,10 +9,12 @@ import HeroImg from "../svg/undraw_mindfulness.svg"
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <Hero text="Find out more about us" image={<HeroImg />} />
+    <Hero
+      text="Find out more about the starter and what it offers"
+      image={<HeroImg />}
+    />
     <Body>
       <h1>About</h1>
-      <h2>The Goal</h2>
       <p>
         This starter brings together, Gatsby, TailwindCSS and NetlifyCMS to make
         it simple to create a site with static generation, flexible styling and
