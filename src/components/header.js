@@ -53,7 +53,8 @@ const Header = () => {
         >
           {pages.map(page => (
             <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white font-display hover:no-underline"
+              activeStyle={{ color: `#EE6C4D` }}
               key={page.text}
               to={page.route}
             >
