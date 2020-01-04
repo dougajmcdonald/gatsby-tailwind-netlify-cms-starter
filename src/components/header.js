@@ -12,8 +12,8 @@ const Header = () => {
       text: `Home`
     },
     {
-      route: `/facilities`,
-      text: `Facilities`
+      route: `/about`,
+      text: `About`
     },
     {
       route: `/book`,
