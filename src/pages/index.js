@@ -30,7 +30,7 @@ export default ({
       <Body>
         <h1>Welcome</h1>
         <p>Welcome to the Gatsby Tailwind Netlify CMS starter.</p>
-        <h2>Posts</h2>
+        <h2 className="mt-6">Posts</h2>
         {posts}
       </Body>
     </Layout>
